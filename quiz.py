@@ -22,5 +22,29 @@ chemistry_questions = [
     ("Which element makes bones strong?", ["A. Iron", "B. Calcium", "C. Sodium", "D. Magnesium"], "B"),
     ("Which metal is liquid at room temperature?", ["A. Gold", "B. Silver", "C. Mercury", "D. Sodium"], "C"),
 ]
-#this part is done by yohannis
+#this part is done by yohannis 
 
+
+# Physics Questions
+physics_questions = [
+    ("Force = ?", ["A. mass × acceleration", "B. mass ÷ velocity", "C. weight × time", "D. energy ÷ distance"], "A"),
+    ("Speed = ?", ["A. distance ÷ time", "B. time ÷ distance", "C. mass ÷ velocity", "D. force ÷ mass"], "A"),
+    ("SI unit of force?", ["A. Joule", "B. Watt", "C. Newton", "D. Pascal"], "C"),
+    ("Unit of energy?", ["A. Joule", "B. Watt", "C. Newton", "D. Pascal"], "A"),
+    ("Unit of power?", ["A. Joule", "B. Watt", "C. Newton", "D. Ampere"], "B"),
+    ("Which travels fastest?", ["A. Sound", "B. Light", "C. Water waves", "D. Wind"], "B"),
+    ("Earth pulls objects by?", ["A. Friction", "B. Gravity", "C. Magnetism", "D. Pressure"], "B"),
+    ("Which is not a renewable source?", ["A. Sun", "B. Coal", "C. Wind", "D. Water"], "B"),
+    ("Boiling point of water?", ["A. 50°C", "B. 75°C", "C. 100°C", "D. 150°C"], "C"),
+    ("Freezing point of water?", ["A. 0°C", "B. 10°C", "C. 50°C", "D. 100°C"], "A"),
+    ("Which device measures temperature?", ["A. Barometer", "B. Thermometer", "C. Hygrometer", "D. Speedometer"], "B"),
+    ("Sound travels fastest in?", ["A. Air", "B. Water", "C. Steel", "D. Vacuum"], "C"),
+    ("Which mirror is used in cars?", ["A. Plane", "B. Concave", "C. Convex", "D. None"], "C"),
+    ("Which planet has least gravity?", ["A. Earth", "B. Jupiter", "C. Moon", "D. Mars"], "C"),
+    ("Which lens is used in magnifying glass?", ["A. Concave", "B. Convex", "C. Plane", "D. Flat"], "B"),
+    ("Current is measured in?", ["A. Joule", "B. Watt", "C. Ampere", "D. Ohm"], "C"),
+    ("Resistance unit?", ["A. Ohm", "B. Watt", "C. Volt", "D. Joule"], "A"),
+    ("Unit of voltage?", ["A. Ohm", "B. Watt", "C. Volt", "D. Joule"], "C"),
+    ("Work = ?", ["A. Force × distance", "B. mass ÷ time", "C. velocity × time", "D. Energy ÷ force"], "A"),
+    ("Friction is?", ["A. A pushing force", "B. A pulling force", "C. A resisting force", "D. A lifting force"], "C"),
+]
