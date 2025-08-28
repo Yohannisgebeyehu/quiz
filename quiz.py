@@ -48,7 +48,7 @@ physics_questions = [
     ("Work = ?", ["A. Force × distance", "B. mass ÷ time", "C. velocity × time", "D. Energy ÷ force"], "A"),
     ("Friction is?", ["A. A pushing force", "B. A pulling force", "C. A resisting force", "D. A lifting force"], "C"),
 ]
-
+#this part is done by rukiya
 # English Questions
 english_questions = [
     ("Synonym of 'Happy'?", ["A. Sad", "B. Angry", "C. Joyful", "D. Weak"], "C"),
@@ -72,7 +72,7 @@ english_questions = [
     ("Opposite of 'Love'?", ["A. Hate", "B. Like", "C. Care", "D. Play"], "A"),
     ("Synonym of 'Start'?", ["A. Begin", "B. End", "C. Stop", "D. Finish"], "A"),
 ]
-
+#this part is done by haymanot
 
 # Maths Questions
 maths_questions = [
@@ -97,7 +97,7 @@ maths_questions = [
     ("Convert 1 km into m", ["A. 10", "B. 100", "C. 1000", "D. 10000"], "C"),
     ("What is the next prime after 7?", ["A. 9", "B. 10", "C. 11", "D. 13"], "C"),
 ]
-
+#this part is done by mubarik
 
 biology_questions = [
     ("The study of plants is called?", ["A. Zoology", "B. Botany", "C. Biology", "D. Anatomy"], "B"),
@@ -121,7 +121,7 @@ biology_questions = [
     ("Which plant part makes food?", ["A. Stem", "B. Leaf", "C. Root", "D. Flower"], "B"),
     ("Which system helps in breathing?", ["A. Digestive", "B. Respiratory", "C. Circulatory", "D. Skeletal"], "B"),
 ]
-
+#this part is done by mihret
 # Combine all subjects
 all_questions = maths_questions + english_questions + biology_questions + physics_questions + chemistry_questions
 
@@ -146,4 +146,4 @@ def run_quiz(questions):
 
 # Run the quiz
 run_quiz(all_questions)
-
+#this part is done by group members
