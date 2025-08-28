@@ -48,3 +48,28 @@ physics_questions = [
     ("Work = ?", ["A. Force × distance", "B. mass ÷ time", "C. velocity × time", "D. Energy ÷ force"], "A"),
     ("Friction is?", ["A. A pushing force", "B. A pulling force", "C. A resisting force", "D. A lifting force"], "C"),
 ]
+
+# English Questions
+english_questions = [
+    ("Synonym of 'Happy'?", ["A. Sad", "B. Angry", "C. Joyful", "D. Weak"], "C"),
+    ("Opposite of 'Hot'?", ["A. Warm", "B. Cold", "C. Dry", "D. Wet"], "B"),
+    ("Choose the noun: 'The cat runs fast.'", ["A. cat", "B. runs", "C. fast", "D. the"], "A"),
+    ("Plural of 'child'?", ["A. childs", "B. children", "C. childes", "D. childer"], "B"),
+    ("Past tense of 'go'?", ["A. gone", "B. goes", "C. went", "D. going"], "C"),
+    ("Adjective in 'She is a tall girl.'?", ["A. She", "B. tall", "C. girl", "D. is"], "B"),
+    ("Choose the verb: 'Birds fly high.'", ["A. Birds", "B. fly", "C. high", "D. none"], "B"),
+    ("Opposite of 'Big'?", ["A. Short", "B. Small", "C. Tiny", "D. Little"], "B"),
+    ("Synonym of 'Fast'?", ["A. Quick", "B. Slow", "C. Lazy", "D. Weak"], "A"),
+    ("Antonym of 'Beautiful'?", ["A. Ugly", "B. Pretty", "C. Nice", "D. Fair"], "A"),
+    ("Which is a pronoun?", ["A. He", "B. Man", "C. Run", "D. Book"], "A"),
+    ("What is the plural of 'mouse'?", ["A. mouses", "B. mice", "C. mouse", "D. mousen"], "B"),
+    ("Choose the article: '___ apple a day keeps the doctor away.'", ["A. A", "B. An", "C. The", "D. None"], "B"),
+    ("Past tense of 'eat'?", ["A. eaten", "B. ate", "C. eating", "D. eats"], "B"),
+    ("Opposite of 'Rich'?", ["A. Wealthy", "B. Poor", "C. Weak", "D. Thin"], "B"),
+    ("Which is a vowel?", ["A. B", "B. C", "C. E", "D. G"], "C"),
+    ("Synonym of 'Angry'?", ["A. Happy", "B. Mad", "C. Sad", "D. Joyful"], "B"),
+    ("Choose the verb: 'The boy sings well.'", ["A. boy", "B. sings", "C. well", "D. the"], "B"),
+    ("Opposite of 'Love'?", ["A. Hate", "B. Like", "C. Care", "D. Play"], "A"),
+    ("Synonym of 'Start'?", ["A. Begin", "B. End", "C. Stop", "D. Finish"], "A"),
+]
+
