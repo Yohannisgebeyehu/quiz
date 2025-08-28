@@ -73,3 +73,28 @@ english_questions = [
     ("Synonym of 'Start'?", ["A. Begin", "B. End", "C. Stop", "D. Finish"], "A"),
 ]
 
+
+# Maths Questions
+maths_questions = [
+    ("What is 12 × 8?", ["A. 96", "B. 88", "C. 108", "D. 86"], "A"),
+    ("Square root of 81 is?", ["A. 7", "B. 8", "C. 9", "D. 10"], "C"),
+    ("Simplify: 25 ÷ 5", ["A. 2", "B. 3", "C. 4", "D. 5"], "D"),
+    ("Value of π (approx)?", ["A. 2.14", "B. 3.14", "C. 4.13", "D. 3.41"], "B"),
+    ("What is 15% of 200?", ["A. 15", "B. 25", "C. 30", "D. 35"], "C"),
+    ("What is 7²?", ["A. 14", "B. 21", "C. 49", "D. 77"], "C"),
+    ("What is 1000 ÷ 10?", ["A. 10", "B. 100", "C. 1000", "D. 1"], "B"),
+    ("LCM of 4 and 6?", ["A. 8", "B. 10", "C. 12", "D. 14"], "C"),
+    ("What is 3³?", ["A. 6", "B. 9", "C. 27", "D. 81"], "C"),
+    ("Simplify: 45 – 19", ["A. 24", "B. 25", "C. 26", "D. 27"], "C"),
+    ("What is 20% of 250?", ["A. 25", "B. 40", "C. 50", "D. 60"], "C"),
+    ("What is 0.75 as a fraction?", ["A. 1/2", "B. 2/3", "C. 3/4", "D. 1/4"], "C"),
+    ("If a = 5, b = 3, find a+b", ["A. 7", "B. 8", "C. 9", "D. 10"], "C"),
+    ("Simplify: 9 × 7", ["A. 56", "B. 63", "C. 72", "D. 81"], "B"),
+    ("Perimeter of a square with side 6?", ["A. 12", "B. 18", "C. 24", "D. 30"], "C"),
+    ("Area of rectangle 4×7?", ["A. 21", "B. 24", "C. 28", "D. 32"], "C"),
+    ("Solve: 2x = 10", ["A. 2", "B. 5", "C. 10", "D. 20"], "B"),
+    ("What is ½ of 36?", ["A. 12", "B. 16", "C. 18", "D. 20"], "C"),
+    ("Convert 1 km into m", ["A. 10", "B. 100", "C. 1000", "D. 10000"], "C"),
+    ("What is the next prime after 7?", ["A. 9", "B. 10", "C. 11", "D. 13"], "C"),
+]
+
