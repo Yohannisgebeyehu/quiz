@@ -98,3 +98,52 @@ maths_questions = [
     ("What is the next prime after 7?", ["A. 9", "B. 10", "C. 11", "D. 13"], "C"),
 ]
 
+
+biology_questions = [
+    ("The study of plants is called?", ["A. Zoology", "B. Botany", "C. Biology", "D. Anatomy"], "B"),
+    ("The powerhouse of the cell?", ["A. Nucleus", "B. Mitochondria", "C. Ribosome", "D. Chloroplast"], "B"),
+("The green pigment in plants?", ["A. Hemoglobin", "B. Melanin", "C. Chlorophyll", "D. Protein"], "C"),
+    ("Animals without backbone are?", ["A. Vertebrates", "B. Invertebrates", "C. Mammals", "D. Reptiles"], "B"),
+    ("Largest organ in the body?", ["A. Heart", "B. Liver", "C. Skin", "D. Brain"], "C"),
+    ("Which gas do plants release during photosynthesis?", ["A. CO2", "B. Oxygen", "C. Nitrogen", "D. Hydrogen"], "B"),
+    ("Basic unit of life?", ["A. Atom", "B. Cell", "C. Organ", "D. Tissue"], "B"),
+    ("Which blood cells fight disease?", ["A. RBC", "B. WBC", "C. Platelets", "D. Plasma"], "B"),
+    ("Process of making food in plants?", ["A. Respiration", "B. Photosynthesis", "C. Transpiration", "D. Digestion"], "B"),
+    ("Which vitamin is made by sunlight?", ["A. A", "B. B", "C. C", "D. D"], "D"),
+    ("Which part of plant absorbs water?", ["A. Leaf", "B. Stem", "C. Root", "D. Flower"], "C"),
+    ("Which organ pumps blood?", ["A. Brain", "B. Heart", "C. Lungs", "D. Kidney"], "B"),
+    ("Blood is pumped through?", ["A. Veins", "B. Arteries", "C. Capillaries", "D. All"], "D"),
+    ("Which organ controls body?", ["A. Brain", "B. Heart", "C. Lungs", "D. Skin"], "A"),
+    ("Which organ purifies blood?", ["A. Heart", "B. Lungs", "C. Kidney", "D. Liver"], "C"),
+    ("Smallest bone in body?", ["A. Stapes", "B. Femur", "C. Tibia", "D. Radius"], "A"),
+    ("Which animal lays eggs?", ["A. Dog", "B. Cat", "C. Hen", "D. Cow"], "C"),
+    ("Largest mammal?", ["A. Elephant", "B. Whale", "C. Rhino", "D. Tiger"], "B"),
+    ("Which plant part makes food?", ["A. Stem", "B. Leaf", "C. Root", "D. Flower"], "B"),
+    ("Which system helps in breathing?", ["A. Digestive", "B. Respiratory", "C. Circulatory", "D. Skeletal"], "B"),
+]
+
+# Combine all subjects
+all_questions = maths_questions + english_questions + biology_questions + physics_questions + chemistry_questions
+
+# Quiz function
+def run_quiz(questions):
+    score = 0
+    print("🎯 Welcome to the 100-Question Quiz!\n")
+    
+    for idx, (question, options, answer) in enumerate(questions, start=1):
+        print(f"\nQ{idx}. {question}")
+        for option in options:
+            print(option)
+        user_answer = input("👉 Enter your choice (A/B/C/D): ").upper()
+        
+        if user_answer == answer:
+            print("✅ Correct!")
+            score += 1
+        else:
+            print(f"❌ Wrong! Correct answer is {answer}")
+    
+    print(f"\n🏆 Your final score is {score}/{len(questions)}")
+
+# Run the quiz
+run_quiz(all_questions)
+
